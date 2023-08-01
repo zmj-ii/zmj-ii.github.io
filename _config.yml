@@ -98,7 +98,55 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Cayman
+theme: Claudia
+
+user:
+  name: 
+  avatar: /images/avatar.jpg
+  location:
+  description:
+  footnotes:
+
+# config you SNS
+social:
+  zhihu:
+  twitter:
+  facebook:
+  linkedin:
+  instagram:
+  github: zmj-ii
+
+# Page icon
+favicon: images/favicon.ico
+
+friend_links:
+  - title: Link1
+    link: https://www.link1.test.com/
+
+ # main menu navigation
+menu:
+   Home: /
+   About: /about
+   Archives: /archives
+
+widgets:
+  - tag
+  - archive
+  - category
+  - recent_posts
+
+comment_utteranc:
+  enable: true
+  repo: zmj-ii/zmj-ii # Change to your blog repo
+
+# 1.light 
+# 2.dark
+# 3.auto (default, match device appearance setting)
+appearance: auto
+
+highlight:
+  enable: false
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
